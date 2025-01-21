@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Python</title>
+</head>
+<body>
+    <header>
+        <h1>Kamil Vítek</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">O mně</a></li>
+                <li><a href="skoleni.html">Kurz</a></li>
+                <li><a href="python.html">Python</a></li>
+                <li><a href="https://github.com/Smecka1/portfolio" target="_blank" class="git">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <h1>Python</h1>
+        <section>
+            <p>
+                Vždycky mě fascinovala myšlenka vytvářet něco z ničeho. Když jsem objevil Python, našel jsem jazyk, 
+                který mi umožnil toho dosáhnout. Jeho srozumitelnost a všestrannost mě okamžitě zaujaly.
+            </p>
+            <p>
+                Zde bych rád představil několik svých projektů a podělil se o zkušenosti, které jsem během jejich tvorby získal. 
+                Zaměřím se zejména na to, jak jsem řešil různé problémy a jak jsem se snažil o co nejčistší a udržitelný kód.
+            </p>
+            <h2>Aréna</h2>
+            <p>
+                Cílem bylo dosáhnout pocitu sledování duelu dvou oponentů v aréně. Aby to bylo zajmavější vytvořil sem tři typy bojovníků 
+                Válečník, Kouzelník, a Assasin, kteří mají také tři typy akcí, jež mohou provést.
+            </p>
+            <p>
+                Bylo to taky ideální pro vyzkoušení konceptu Abstraktní třídy a metody. 
+                Takže jsem vytvořil předka Fighter který je abstraktní třídou, a zároveň má abstraktní metodu actoin, 
+                kterou si každý bojovník musí upravit podle svých dostupných akcí.
+            </p>
+            <p>
+                Výsledný dojem jsem vylepšil postupným výpisem jednotlivých kol zápasu s pauzami díky modulu time. 
+                Soupeře vybírá aréna náhodně, tudíž je možné po stažení všech souborů jen zpustit a sledovat funkčnost.
+            </p>
+            <div class="kod">
+                <a href="https://github.com/Smecka1/portfolio/tree/main/Python/OOP/Arena" target="_blank">
+                    <img src="obrazky/kod arena.png" alt="arena"></a>
+            </div>
+            
+            <h2>Piškvorky</h2>
+            <p>
+                Rozdělení logiky hry do jasně definovaných metod, jako je inicializace herního pole, ovládání tahu hráče nebo kontrola výhry, 
+                mi pomohlo udržet kód přehledný a snadno rozšiřitelný. Také jsem se zdokonalil v práci s víceúrovňovými seznamy, což mi umožnilo efektivně 
+                modelovat herní pole.
+            </p>
+            <p>
+                Naučil jsem se efektivně ošetřovat chybné vstupy, jako jsou neplatné nebo mimo rozsah zadané souřadnice, čímž jsem zvýšil odolnost 
+                a uživatelskou přívětivost aplikace. Důležitým prvkem byla i vizualizace herního stavu díky správnému formátování výstupu je herní pole snadno čitelné 
+                a dobře reprezentuje aktuální průběh hry.
+            </p>
+            <p>
+                Poslední zásadní oblastí bylo vytváření algoritmů pro kontrolu výhry. Tato část posunula mou schopnost pracovat s podmínkami, iteracemi 
+                a logickými vazbami při hledání nepřerušené řady znaků v různých směrech. Práce na této hře mi tedy poskytla hlubší pochopení implementace algoritmů 
+                a základů objektově orientovaného programování v Pythonu.
+            </p>
+            <div class="kod">
+                <a href="https://github.com/Smecka1/portfolio/blob/main/Python/OOP/five_in_row.py" target="_blank">
+                    <img src="obrazky/kod five in row.png" alt="piškvorky"></a>
+            </div>
+        </section>
+    </article>
+    <footer>
+        <p>
+            E-mail: polvitek@seznam.cz | 
+            Telefon: +420 775 065 443 | 
+            <a href="https://github.com/Smecka1/portfolio" target="_blank">GitHub</a>
+        </p>
+    </footer>
+    
+</body>
+</html>
