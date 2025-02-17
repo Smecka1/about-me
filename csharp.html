@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>C#</title>
+</head>
+<body>
+    <header>
+        <h1>Kamil Vítek</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">O mně</a></li>
+                <li><a href="skoleni.html">Kurz</a></li>
+                <li><a href="python.html">Python</a></li>
+                <li><a href="csharp.html">C#</a></li>
+                <li><a href="https://github.com/Smecka1/portfolio" target="_blank" class="git">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <h1>C#</h1>
+        <section>
+            <p>
+                Moje cesta programováním začala s Pythonem, který mě nadchl svou jednoduchostí a možnostmi. 
+                Časem jsem ale zjistil, že v mém okolí je větší poptávka po C# a tak jsem se rozhodl rozšířit své znalosti i tímto směrem.
+            </p>
+            <p>
+                V této sekci bych rád představil některé své projekty v C# a podělil se o zkušenosti, které jsem během jejich tvorby získal. 
+            </p>
+            <h2>To-Do</h2>
+            <p>
+                Chtěl jsem vytvořit jednoduchou To-Do aplikaci, která umožňuje uživateli efektivně spravovat své úkoly. 
+                Aplikace poskytuje základní funkce, jako je přidávání, odstraňování a zobrazení úkolů, což z ní dělá užitečný nástroj pro organizaci každodenních 
+                povinností.
+            </p>
+            <p>
+                Kromě základního zadávání textu úkolu jsem také implementoval možnost zadat číslo pro výběr předdefinovaného textu úkolu, což zrychluje zadávání 
+                a činí aplikaci flexibilnější. Také jsem se snažil dosáhnout efektivního vyhledávání pomocí BinarySearch, což je užitečné zejména v případě větší databáze 
+                úkolů. Tato metoda je použita jak pro řazení dat při jejich přidávání do databáze, tak pro výpis dat při jejich zobrazení uživateli.
+            </p>
+            <p>
+                Strukturu jsem navrhl tak, aby byla přehledná a snadno rozšiřitelná. Každý úkol je uložen ve strukturované podobě, což umožňuje snadnou manipulaci s daty. 
+                Hlavní funkce jsou jasně odděleny, takže je kód snadno pochopitelný a udržovatelný. Stačí aplikaci spustit a ihned začít spravovat své úkoly.
+            </p>
+            <div class="kod">
+                <a href="https://github.com/Smecka1/portfolio/tree/main/C%23/ToDo" target="_blank">
+                    <img src="obrazky/todo.png" alt="to-do"></a>
+            </div>
+            
+            <h2>Games</h2>
+            <p>
+                Cílem bylo vytvořit sbírku jednoduchých her v jednom programu, který umožní hráči volit mezi různýma zábavnýma minihrama. 
+                Jako základ jsem zvolil klasickou hru Kámen, nůžky, papír, ke které jsem postupně přidal další hry, čímž se aplikace stala variabilnější a zajímavější.
+            </p>
+            <p>
+                Strukturu programu jsem navrhl tak, aby bylo snadné přidávat nové hry. 
+                Každá hra má svou vlastní třídu, která dědí z abstraktního předka, čímž sem zachoval určitou uniformitu v každé z tříd. 
+                Společné prvky jsou řízeny v hlavním menu, odkud si hráč může vybrat, co chce hrát.
+            </p>
+            <p>
+                Pro vylepšení uživatelského zážitku jsem přidal jednoduché výpisy výsledků a logiku pro vyhodnocení výherce. 
+                Kód je napsán tak, aby bylo možné aplikaci jednoduše spustit a okamžitě hrát.
+            </p>
+            <div class="kod">
+                <a href="https://github.com/Smecka1/portfolio/tree/main/C%23/Games" target="_blank">
+                    <img src="obrazky/games.png" alt="games"></a>
+            </div>
+        </section>
+    </article>
+    <footer>
+        <p>
+            E-mail: polvitek@seznam.cz | 
+            Telefon: +420 775 065 443 | 
+            <a href="https://github.com/Smecka1/portfolio" target="_blank">GitHub</a>
+        </p>
+    </footer>
+    
+</body>
+</html>
